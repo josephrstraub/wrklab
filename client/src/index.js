@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
-import './semantic-ui/semantic.min.css';
+import React from 'react'
+import { render } from 'react-dom'
+import Root from './config/Root'
+import './styles/index.css'
 
-ReactDOM.render(
-  <App />,
+
+render(
+  <Root />,
   document.getElementById('root')
-);
+)

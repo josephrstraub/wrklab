@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Goel Exports",
+    "description": "Mustache celiac tousled, glossier street art live-edge austin listicle pop-up lumbersexual. Sartorial VHS williamsburg, mixtape small batch vexillologist cred forage pop-up brunch locavore chartreuse celiac. Kitsch raclette tumeric flexitarian succulents, thundercats etsy photo booth.",
+    "images": [
+      "../img/projects/avid-modern-desk.png",
+      "../img/projects/rectangle-16.png"
+    ]
+  },
+  {
+    "name": "Investopad",
+    "description": "Echo park wolf copper mug, woke four loko gochujang sartorial poutine trust fund kitsch flexitarian banh mi forage hashtag. Chartreuse paleo hammock vice 3 wolf moon.",
+    "images": [
+      "../img/projects/avid-modern-desk.png",
+      "../img/projects/rectangle-16.png"
+    ]
+  },
+  {
+    "name": "Alcove",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "images": [
+      "../img/projects/avid-modern-desk.png",
+      "../img/projects/rectangle-16.png"
+    ]
+  }
+]

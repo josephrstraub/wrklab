@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Elements",
+    "category": "sofas",
+    "description": "Mustache celiac tousled, glossier street art live-edge austin listicle pop-up lumbersexual. Sartorial VHS williamsburg, mixtape small batch vexillologist cred forage pop-up brunch locavore chartreuse celiac. Kitsch raclette tumeric flexitarian succulents, thundercats etsy photo booth.",
+    "availableColors": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "availableSizes": [
+      "42 x 18",
+      "40 x 18",
+      "38 x 16"
+    ],
+    "price": 1200,
+    "images": [1,2,3,4,5,6]
+  },
+  {
+    "name": "Industry",
+    "category": "sofas",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "availableColors": [
+      "red",
+      "green",
+      "blue"
+    ],
+    "availableSizes": [
+      "42 x 18",
+      "40 x 18",
+      "38 x 16"
+    ],
+    "price": 1200,
+    "images": [1,2,3,4,5,6]
+  }
+]

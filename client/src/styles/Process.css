@@ -1,0 +1,25 @@
+.sidebar, .pager, .dynamic-menu {
+  display: inline-block;
+}
+
+.dynamic-menu {
+  text-align: right;
+}
+
+.dynamic-menu .line {
+  display: inline-block;
+  height: 2px;
+  width: 30px;
+  background-color: white;
+}
+
+.dynamic-menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.line.long {
+  width: 60px;
+  background-color: #FF1FA9;
+}
