@@ -54,7 +54,7 @@ const modelToUse = {
 
 const app = express()
 
-app.set('port', (process.env.PORT || 3100))
+app.set('port', (process.env.PORT || 3001))
 
 // Express only serves static assets in production
 if (process.env.NODE_ENV === 'production') {
