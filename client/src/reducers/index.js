@@ -6,7 +6,8 @@ const initialState = {
   featuredProjects: [],
   activeListIndex: 0,
   activeSubIndex: 0,
-  showModal: false
+  showModal: false,
+  previousPath: ""
 }
 
 const wrklabApp = (state = initialState, action) => {
@@ -36,6 +37,11 @@ const wrklabApp = (state = initialState, action) => {
       return {
         ...state,
         showModal: !state.showModal
+      }
+    case 'UPDATE_PREVIOUS_PATH':
+      return {
+        ...state,
+        previousPath: action.path
       }
     default:
       return state

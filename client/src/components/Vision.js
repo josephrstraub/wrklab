@@ -16,6 +16,9 @@ import upkeepService from '../img/processes/upkeep-service.png'
 import vr3D from '../img/processes/vr-3d.png'
 
 class Vision extends Component {
+  componentDidMount() {
+    this.props.changeActiveListIndex(0)
+  }
   render() {
     let { visions, activeListIndex, showModal, changeActiveListIndex, toggleModal } = this.props
     return (
@@ -35,7 +38,7 @@ class Vision extends Component {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/EC9VcJfq61I" frameBorder="0" allowFullScreen></iframe>
           </Col>
           <Col xs={2} xsOffset={1}>
-            <DynamicMenu items={[]} header1={"PROCESS"} header2={"VR DEMO"}/>
+            <DynamicMenu items={[]} header1={"PROCESS"} header2={"VR DEMO"} changeActiveListIndex={changeActiveListIndex}/>
           </Col>
         </Row>
         <Row style={{position: "fixed", bottom: "40px", width: "100%", zIndex: "1100"}}>

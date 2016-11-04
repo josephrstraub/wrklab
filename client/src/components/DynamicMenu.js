@@ -3,10 +3,13 @@ import { Link } from 'react-router'
 
 class DynamicMenu extends Component {
   render() {
-    let { items, activeItem, header1, header2 } = this.props
+    let { items, activeItem, header1, header2, changeActiveListIndex } = this.props
     let lines = items.map((item, index) => (
       <li key={index}>
-        <div className={`line ${index === activeItem ? "long" : null}`}></div>
+        <div
+          className={`line ${index === activeItem ? "long" : "short"}`}
+          onClick={this.props.changeActiveListIndex.bind(this, index)}>
+        </div>
       </li>
     ))
     return (

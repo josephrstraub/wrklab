@@ -7,6 +7,9 @@ import ModalWindow from './ModalWindow'
 import { Grid, Row, Col, ButtonGroup, Button } from 'react-bootstrap'
 
 class Products extends Component {
+  componentDidMount() {
+    this.props.changeActiveListIndex(0)
+  }
   render() {
     let { activeListIndex, showModal, changeActiveListIndex, toggleModal } = this.props
     let navItems = ["DESKS", "SOFAS", "ALCOVE", "PARTITIONS", "STORAGE", "LIGHTING"]

@@ -53,21 +53,25 @@ input:focus {
   outline: none;
 }
 
+.red {color: #FF1FA9;}
 .red::-webkit-input-placeholder {color: #FF1FA9;}
 .red:-moz-placeholder {color: #FF1FA9;}
 .red::-moz-placeholder {color: #FF1FA9;}
 .red:-ms-input-placeholder {color: #FF1FA9;}
 
+.blue {color: #4EDFFF;}
 .blue::-webkit-input-placeholder {color: #4EDFFF;}
 .blue:-moz-placeholder {color: #4EDFFF;}
 .blue::-moz-placeholder {color: #4EDFFF;}
 .blue:-ms-input-placeholder {color: #4EDFFF;}
 
+.purple {color: purple;}
 .purple::-webkit-input-placeholder {color: purple;}
 .purple:-moz-placeholder {color: purple;}
 .purple::-moz-placeholder {color: purple;}
 .purple:-ms-input-placeholder {color: purple;}
 
+.green {color: #16D400;}
 .green::-webkit-input-placeholder {color: #16D400;}
 .green:-moz-placeholder {color: #16D400;}
 .green::-moz-placeholder {color: #16D400;}

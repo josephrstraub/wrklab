@@ -35,3 +35,8 @@ export const changeActiveSubIndex = (newIndex) => ({
 export const toggleModal = () => ({
   type: 'TOGGLE_MODAL'
 })
+
+export const updatePreviousPath = (path) => ({
+  type: 'UPDATE_PREVIOUS_PATH',
+  path
+})

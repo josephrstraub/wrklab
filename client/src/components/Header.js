@@ -28,10 +28,9 @@ class Header extends Component {
   }
   render() {
     let { navItems, subNavItems, activeItem, inactiveColor, activeColor, textColor } = this.props
-    console.log(subNavItems)
     const activeStyles = {
-      backgroundColor: activeColor ? activeColor : "inherit",
-      color: textColor ? textColor : "#FF1FA9"
+      backgroundColor: activeColor || "inherit",
+      color: textColor || "#FF1FA9"
     }
     const inactiveStyles = {
       backgroundColor: inactiveColor,

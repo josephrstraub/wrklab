@@ -16,6 +16,9 @@ import upkeepService from '../img/processes/upkeep-service.png'
 import vr3D from '../img/processes/vr-3d.png'
 
 class Process extends Component {
+  componentDidMount() {
+    this.props.changeActiveListIndex(0)
+  }
   render() {
     let images = [brief, analysis, sketchDesign, finalDesign, vr3D, construction, upkeepService]
     let colors = ["#4F1452", "#19234D", "#660033", "#212801", "#19234D", "#242424", "#003F52"]
@@ -35,12 +38,17 @@ class Process extends Component {
               changeActiveListIndex={changeActiveListIndex} />
           </Col>
           <Col xs={2}>
-            <DynamicMenu items={processes} activeItem={activeListIndex} header1={"PROCESS"} header2={"VR DEMO"}/>
+            <DynamicMenu
+              items={processes}
+              activeItem={activeListIndex}
+              header1={"PROCESS"}
+              header2={"VR DEMO"}
+              changeActiveListIndex={changeActiveListIndex}/>
           </Col>
         </Row>
         <Row style={{position: "fixed", bottom: "40px", width: "100%"}}>
           <Col xs={4} xsOffset={4}>
-            <ProgressMeter processes={processes} activeProcess={activeListIndex}/>
+            <ProgressMeter processes={processes} activeProcess={activeListIndex} changeActiveListIndex={changeActiveListIndex}/>
           </Col>
           <Col xs={2} xsOffset={2} style={{zIndex: "1100"}}>
             <Button

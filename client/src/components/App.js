@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { getData, changeActiveList, changeActiveListIndex, changeActiveSubIndex, toggleModal } from '../actions'
+import { getData, changeActiveList, changeActiveListIndex, changeActiveSubIndex, toggleModal, updatePreviousPath } from '../actions'
 import Header from './Header'
 import VisibleBody from '../containers/VisibleBody'
 import VisibleFooter from '../containers/VisibleFooter'
@@ -16,7 +16,8 @@ const mapStateToProps = (state) => {
     visions: state.visions,
     activeListIndex: state.activeListIndex,
     activeSubIndex: state.activeSubIndex,
-    showModal: state.showModal
+    showModal: state.showModal,
+    previousPath: state.previousPath
   }
 }
 
@@ -36,6 +37,9 @@ const mapDispatchToProps = (dispatch) => {
     },
     toggleModal: () => {
       dispatch(toggleModal())
+    },
+    updatePreviousPath: (path) => {
+      dispatch(updatePreviousPath(path))
     }
   }
 }

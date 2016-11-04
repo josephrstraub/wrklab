@@ -7,10 +7,12 @@ class ProgressMeter extends Component {
       if (index === 0) {
         return (
           <div key={index} style={{display: "inline-block", position: "relative"}}>
-            <div className={`circle ${index === this.props.activeProcess ? "active-process" : null}`}>
+            <div
+              className={`circle ${index === this.props.activeProcess ? "active-process" : null}`}
+              onClick={this.props.changeActiveListIndex.bind(this, index)}>
               <div className="inner-circle"></div>
             </div>
-            {this.props.activeProcess !== index ? <h4 className="first-num">01</h4> : null}
+            {this.props.activeProcess !== index ? <h4 className="first-num" onClick={this.props.changeActiveListIndex.bind(this, index)}>01</h4> : null}
         </div>
         )
       } else {
@@ -18,10 +20,12 @@ class ProgressMeter extends Component {
           <div key={index} style={{display: "inline-block", position: "relative"}}>
             <div className="tiny"></div>
             <div className="tiny"></div>
-            <div className={`circle ${index === this.props.activeProcess ? "active-process" : null}`}>
+            <div
+              className={`circle ${index === this.props.activeProcess ? "active-process" : null}`}
+              onClick={this.props.changeActiveListIndex.bind(this, index)}>
               <div className="inner-circle"></div>
             </div>
-            {this.props.activeProcess !== index ? <h4>0{index+1}</h4> : null}
+            {this.props.activeProcess !== index ? <h4 onClick={this.props.changeActiveListIndex.bind(this, index)}>0{index+1}</h4> : null}
           </div>
         )
       }

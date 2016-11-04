@@ -9,6 +9,10 @@ import { Grid, Row, Col, Button } from 'react-bootstrap'
 import avidModernDesk from '../img/projects/avid-modern-desk.png'
 
 class FeaturedProjects extends Component {
+  componentDidMount() {
+    this.props.changeActiveListIndex(0)
+    this.props.updatePreviousPath("featured")
+  }
   render() {
     let { featuredProjects, activeListIndex, showModal, changeActiveListIndex, toggleModal } = this.props
     console.log(featuredProjects)
@@ -33,7 +37,12 @@ class FeaturedProjects extends Component {
               changeActiveListIndex={changeActiveListIndex} />
           </Col>
           <Col xs={2}>
-            <DynamicMenu items={featuredProjects} activeItem={activeListIndex} header1={"FEATURED"} header2={"PRODUCTS"}/>
+            <DynamicMenu
+              items={featuredProjects}
+              activeItem={activeListIndex}
+              header1={"FEATURED"}
+              header2={"PRODUCTS"}
+              changeActiveListIndex={changeActiveListIndex}/>
           </Col>
         </Row>
         <Row style={{position: "fixed", bottom: "40px", width: "100%"}}>
