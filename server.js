@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(__dirname + 'client/build'))
 }
 
-mongoose.connect(process.env.MONGOLAB_URI || mongoLocal)
+mongoose.connect(process.env.MONGODB_URI || mongoLocal)
 const db = mongoose.connection
 db.on('error', (err) => {
   console.error.bind(console, `Connection error: ${err}`)
