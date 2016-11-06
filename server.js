@@ -4,7 +4,7 @@ import express from 'express'
 import fs from 'fs'
 import mongoose from 'mongoose'
 
-mongoose.connect(url)
+mongoose.connect(process.env.MONGOLAB_URI || url)
 const db = mongoose.connection
 db.on('error', (err) => {
   console.error(`Connection error: ${err}`)

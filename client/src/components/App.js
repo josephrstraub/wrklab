@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { getData, changeActiveList, changeActiveListIndex, changeActiveSubIndex, toggleModal, updatePreviousPath } from '../actions'
 import Header from './Header'
-import VisibleBody from '../containers/VisibleBody'
-import VisibleFooter from '../containers/VisibleFooter'
 import { Grid } from 'react-bootstrap'
 
 const mapStateToProps = (state) => {
