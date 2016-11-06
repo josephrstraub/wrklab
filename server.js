@@ -4,6 +4,15 @@ import express from 'express'
 import fs from 'fs'
 import mongoose from 'mongoose'
 
+const app = express()
+
+app.set('port', (process.env.PORT || 3001))
+
+// Express only serves static assets in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'))
+}
+
 mongoose.connect(process.env.MONGOLAB_URI || mongoLocal)
 const db = mongoose.connection
 db.on('error', (err) => {
@@ -51,15 +60,6 @@ const modelToUse = {
   'visions': visionsModel
 }
 
-
-const app = express()
-
-app.set('port', (process.env.PORT || 3001))
-
-// Express only serves static assets in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('client/build'))
-}
 
 app.get('/api/:dataType', (req, res) => {
   const filter = {}
