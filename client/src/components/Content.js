@@ -18,7 +18,6 @@ class Content extends Component {
     this.setState({atBottom: !this.state.atBottom})
   }
   render() {
-    let { toggleModal, showModal } = this.props
     return (
       <div onClick={this.handleClick}>
         <Row>
@@ -52,16 +51,6 @@ class Content extends Component {
           <Col xs={4}>
             <Link to="/featured"><h3>Feautured Products</h3></Link>
             <Link to="/products"><h3>Products</h3></Link>
-          </Col>
-        </Row>
-        <Row style={{position: "fixed", bottom: "40px", width: "100%", zIndex: "1100"}}>
-          <Col xs={2} xsOffset={10}>
-            <Button
-              bsSize="large"
-              style={{color: "white", backgroundColor: "#FF1FA9"}}
-              onClick={toggleModal}>
-              {showModal ? "SUBMIT" : "TALK TO US"}
-            </Button>
           </Col>
         </Row>
       </div>

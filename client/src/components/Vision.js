@@ -17,38 +17,30 @@ import vr3D from '../img/processes/vr-3d.png'
 
 class Vision extends Component {
   render() {
-    let { visions, activeListIndex, showModal, changeActiveListIndex, toggleModal } = this.props
+    let { visions, activeVision, changeActiveVision } = this.props
     return (
-      <Grid fluid={true} style={{height: "100%", backgroundColor: "#4F1452"}}>
-        <Header
-          navItems={visions.map(vision => vision.name.toUpperCase())}
-          showModal={showModal}
-          activeItem={activeListIndex}
-          inactiveColor={"#744478"}
-          changeActiveListIndex={changeActiveListIndex}
-          toggleModal={toggleModal} />
+      <Grid fluid={true} style={{height: "100%"}}>
         <Row>
           <Col xs={2} style={{paddingTop: "6%"}}>
-            <Sidebar items={visions} activeItem={activeListIndex} itemType="VR DEMO" />
+            <Sidebar items={visions} activeItem={activeVision} itemType="VR DEMO" />
           </Col>
           <Col xs={6} xsOffset={1}>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/EC9VcJfq61I" frameBorder="0" allowFullScreen></iframe>
           </Col>
           <Col xs={2} xsOffset={1}>
-            <DynamicMenu items={[]} header1={"PROCESS"} header2={"VR DEMO"}/>
+            <DynamicMenu
+              items={[]}
+              activeItem={null}
+              text="PROCESS"
+              isActive={false}
+              linkTo={"/process"}/>
+            <DynamicMenu
+              items={[]}
+              activeItem={null}
+              text="VR DEMO"
+              isActive={true}/>
           </Col>
         </Row>
-        <Row style={{position: "fixed", bottom: "40px", width: "100%", zIndex: "1100"}}>
-          <Col xs={2} xsOffset={10}>
-            <Button
-              bsSize="large"
-              style={{color: "white", backgroundColor: "#FF1FA9"}}
-              onClick={toggleModal}>
-              {showModal ? "SUBMIT" : "TALK TO US"}
-            </Button>
-          </Col>
-        </Row>
-        <ModalWindow showModal={showModal}/>
       </Grid>
     )
   }

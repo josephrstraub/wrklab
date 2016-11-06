@@ -16,42 +16,40 @@ import upkeepService from '../img/processes/upkeep-service.png'
 import vr3D from '../img/processes/vr-3d.png'
 
 class Process extends Component {
+  componentWillUnmount() {
+    this.props.changeActiveProcess(0)
+  }
   render() {
     let images = [brief, analysis, sketchDesign, finalDesign, vr3D, construction, upkeepService]
-    let colors = ["#4F1452", "#19234D", "#660033", "#212801", "#19234D", "#242424", "#003F52"]
-    let { processes, activeListIndex, showModal, changeActiveListIndex, toggleModal } = this.props
+    let { processes, activeProcess, changeActiveProcess } = this.props
     return (
-      <Grid fluid={true} style={{height: "100%", backgroundColor: colors[activeListIndex]}}>
-        <Header navItems={[]} showModal={showModal} toggleModal={toggleModal}/>
+      <Grid fluid={true} style={{height: "100%"}}>
         <Row>
           <Col xs={2} style={{paddingTop: "6%"}}>
-            <Sidebar items={processes} activeItem={activeListIndex} itemType="PROCESS" />
+            <Sidebar items={processes} activeItem={activeProcess} itemType="PROCESS" />
           </Col>
           <Col xs={8}>
             <Pager
-              imageUrl={processes[activeListIndex] ? images[activeListIndex] : null}
+              imageUrl={processes[activeProcess] ? images[activeProcess] : null}
               items={processes}
-              activeListIndex={activeListIndex}
-              changeActiveListIndex={changeActiveListIndex} />
+              activeItem={activeProcess}
+              handleClick={changeActiveProcess} />
           </Col>
           <Col xs={2}>
-            <DynamicMenu items={processes} activeItem={activeListIndex} header1={"PROCESS"} header2={"VR DEMO"}/>
+            <DynamicMenu
+              items={processes}
+              activeItem={activeProcess}
+              text="PROCESS"
+              isActive={true}
+              handleClick={changeActiveProcess}/>
+            <DynamicMenu
+              items={[]}
+              activeItem={null}
+              text="VR DEMO"
+              isActive={false}
+              linkTo={"/vision"}/>
           </Col>
         </Row>
-        <Row style={{position: "fixed", bottom: "40px", width: "100%"}}>
-          <Col xs={4} xsOffset={4}>
-            <ProgressMeter processes={processes} activeProcess={activeListIndex}/>
-          </Col>
-          <Col xs={2} xsOffset={2} style={{zIndex: "1100"}}>
-            <Button
-              bsSize="large"
-              style={{color: "white", backgroundColor: "#FF1FA9"}}
-              onClick={toggleModal}>
-              {showModal ? "SUBMIT" : "TALK TO US"}
-            </Button>
-          </Col>
-        </Row>
-        <ModalWindow showModal={showModal}/>
       </Grid>
     )
   }

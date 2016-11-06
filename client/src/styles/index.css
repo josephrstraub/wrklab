@@ -6,15 +6,11 @@ body {
 }
 
 .landing {
-  background: url('../img/landing-page-main.svg') no-repeat center -100px fixed; 
+  background: url('../img/landing-page-main.svg') no-repeat center -100px fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#root, #main-container {
-  height: 100%;
 }
 
 .logo-container {
@@ -25,38 +21,19 @@ body {
   margin-left: 5px;
 }
 
-.nav-container {
-  margin: 0 30px;
-}
-
-.nav-row {
-  margin-top: 50px;
-}
-
-.img-container {
-  /*background: url('../img/landing-page-main.svg') no-repeat top center fixed;*/
-  background-position: 50% -40%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  height: 100vh;
-}
-
 .btn-default {
+  border: none;
   background-color: transparent;
-  border: none;
-  border-right: 1px solid rgba(0,0,0,.1);
 }
 
-.btn-default:last-child {
-  border: none;
+.footer .button-group .btn-default:last-child {
+  border-right: none;
 }
 
-.button-group {
+.footer .button-group {
   border-radius: 30px/30px;
   -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,.4);
   -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,.4);
   box-shadow: 0px 1px 6px 0px rgba(0,0,0,.4);
+  border-right: 1px solid rgba(0,0,0,.1);
 }
