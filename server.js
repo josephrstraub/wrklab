@@ -13,10 +13,6 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
 }
 
-app.get('*', function(req, res) {
-  res.render('index');
-});
-
 mongoose.connect(process.env.MONGODB_URI || mongoLocal)
 const db = mongoose.connection
 db.on('error', (err) => {
