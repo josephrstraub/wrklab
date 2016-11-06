@@ -1,13 +1,13 @@
-const url = 'mongodb://localhost:27017/wrklab'
+const mongoLocal = 'mongodb://localhost:27017/wrklab'
 
 import express from 'express'
 import fs from 'fs'
 import mongoose from 'mongoose'
 
-mongoose.connect(process.env.MONGOLAB_URI || url)
+mongoose.connect(process.env.MONGOLAB_URI || mongoLocal)
 const db = mongoose.connection
 db.on('error', (err) => {
-  console.error(`Connection error: ${err}`)
+  console.error.bind(console, `Connection error: ${err}`)
   process.exit(1)
 })
 db.once('open', () => {
