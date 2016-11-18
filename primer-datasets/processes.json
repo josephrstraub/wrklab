@@ -1,9 +1,37 @@
 [
-  {"name": "Brief", "description": "Mustache celiac tousled, glossier street art live-edge austin listicle pop-up lumbersexual. Sartorial VHS williamsburg, mixtape small batch vexillologist cred forage pop-up brunch locavore chartreuse celiac. Kitsch raclette tumeric flexitarian succulents, thundercats etsy photo booth."},
-  {"name": "Analysis", "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft."},
-  {"name": "Sketch Design", "description": "Truffaut fingerstache marfa biodiesel listicle, mumblecore PBR&B crucifix polaroid plaid readymade four dollar toast. Tbh af pork belly, YOLO everyday carry knausgaard iPhone williamsburg fixie venmo single-origin coffee. Twee disrupt shabby chic offal, organic migas cold-pressed leggings."},
-  {"name": "Final Design", "description": "Freegan ramps iPhone tofu cliche, hexagon listicle ugh raw denim. Coloring book pok pok truffaut biodiesel retro, woke drinking vinegar iceland four dollar toast selfies roof party."},
-  {"name": "VR+3D", "description": "Mumblecore pitchfork viral brooklyn vinyl, pinterest cornhole asymmetrical fingerstache art party organic schlitz hot chicken chambray intelligentsia. Kale chips cornhole selvage bespoke, waistcoat blue bottle raw denim echo park pabst single-origin coffee williamsburg enamel pin franzen occupy bitters."},
-  {"name": "Construction", "description": "Quinoa hella pinterest tumeric cardigan master cleanse. Man braid thundercats brunch iPhone deep v. Polaroid art party normcore artisan subway tile. Pok pok fingerstache squid vice hell of, meggings iceland."},
-  {"name": "Upkeep Service", "description": "Raclette live-edge knausgaard pabst organic dreamcatcher kombucha vaporware. Photo booth bushwick humblebrag marfa trust fund. Cardigan deep v cred, wayfarers pinterest pop-up health goth food truck fashion axe hell of polaroid paleo vexillologist distillery."}
+  {
+    "name": "Brief",
+    "description": "Mustache celiac tousled, glossier street art live-edge austin listicle pop-up lumbersexual. Sartorial VHS williamsburg, mixtape small batch vexillologist cred forage pop-up brunch locavore chartreuse celiac. Kitsch raclette tumeric flexitarian succulents, thundercats etsy photo booth.",
+    "image": "/img/processes/brief.png"
+  },
+  {
+    "name": "Analysis",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "image": "/img/processes/analysis.png"
+  },
+  {
+    "name": "Sketch Design",
+    "description": "Truffaut fingerstache marfa biodiesel listicle, mumblecore PBR&B crucifix polaroid plaid readymade four dollar toast. Tbh af pork belly, YOLO everyday carry knausgaard iPhone williamsburg fixie venmo single-origin coffee. Twee disrupt shabby chic offal, organic migas cold-pressed leggings.",
+    "image": "/img/processes/sketch-design.png"
+  },
+  {
+    "name": "Final Design",
+    "description": "Freegan ramps iPhone tofu cliche, hexagon listicle ugh raw denim. Coloring book pok pok truffaut biodiesel retro, woke drinking vinegar iceland four dollar toast selfies roof party.",
+    "image": "/img/processes/final-design.png"
+  },
+  {
+    "name": "VR+3D",
+    "description": "Mumblecore pitchfork viral brooklyn vinyl, pinterest cornhole asymmetrical fingerstache art party organic schlitz hot chicken chambray intelligentsia. Kale chips cornhole selvage bespoke, waistcoat blue bottle raw denim echo park pabst single-origin coffee williamsburg enamel pin franzen occupy bitters.",
+    "image": "/img/processes/vr-3d.png"
+  },
+  {
+    "name": "Construction",
+    "description": "Quinoa hella pinterest tumeric cardigan master cleanse. Man braid thundercats brunch iPhone deep v. Polaroid art party normcore artisan subway tile. Pok pok fingerstache squid vice hell of, meggings iceland.",
+    "image": "/img/processes/construction.png"
+  },
+  {
+    "name": "Upkeep Service",
+    "description": "Raclette live-edge knausgaard pabst organic dreamcatcher kombucha vaporware. Photo booth bushwick humblebrag marfa trust fund. Cardigan deep v cred, wayfarers pinterest pop-up health goth food truck fashion axe hell of polaroid paleo vexillologist distillery.",
+    "image": "/img/processes/upkeep-service.png"
+  }
 ]

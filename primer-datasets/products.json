@@ -14,7 +14,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Industry",
@@ -31,7 +37,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Sofa1",
@@ -48,7 +60,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Sofa2",
@@ -65,7 +83,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Sofa3",
@@ -82,7 +106,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Alcove1",
@@ -99,7 +129,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Alcove2",
@@ -116,7 +152,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Partitions1",
@@ -133,7 +175,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Partitions2",
@@ -150,7 +198,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Storage1",
@@ -167,7 +221,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Lighting1",
@@ -184,7 +244,13 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   },
   {
     "name": "Lighting2",
@@ -201,6 +267,12 @@
       "38 x 16"
     ],
     "price": 1200,
-    "images": [1,2,3,4,5,6]
+    "images": [
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png",
+      "/img/products/elements.png"
+    ]
   }
 ]
