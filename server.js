@@ -1,10 +1,16 @@
+import { sendEmail } from './mail'
+
 const mongoLocal = 'mongodb://localhost:27017/wrklab'
+const app = express()
+
+const bodyParser = require('body-parser');
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 import express from 'express'
+import nodemailer from 'nodemailer'
 import fs from 'fs'
 import mongoose from 'mongoose'
-
-const app = express()
 
 app.set('port', (process.env.PORT || 3001))
 
@@ -34,7 +40,7 @@ const featuredProjectsSchema = new mongoose.Schema({
   description: String,
   images: Array
 })
-const featuredProjectsModel = mongoose.model('featuredProjects', featuredProjectsSchema)
+const featuredProjectsModel = mongoose.model('featuredProjects', featuredProjectsSchema, 'featuredProjects')
 
 const productsSchema = new mongoose.Schema({
   name: String,
@@ -65,11 +71,16 @@ app.get('/api/:dataType', (req, res) => {
   const filter = {}
   let dataType = req.params.dataType
   modelToUse[dataType].find(filter, (err, data) => {
+    console.log(data)
     if (err) {
       return console.error(err)
     }
     return res.json(data)
   })
+})
+
+app.post('/send', (req, res) => {
+  sendEmail(req.body)
 })
 
 app.listen(app.get('port'), () => {

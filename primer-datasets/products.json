@@ -1,278 +1,135 @@
 [
   {
-    "name": "Elements",
-    "category": "desks",
-    "description": "Mustache celiac tousled, glossier street art live-edge austin listicle pop-up lumbersexual. Sartorial VHS williamsburg, mixtape small batch vexillologist cred forage pop-up brunch locavore chartreuse celiac. Kitsch raclette tumeric flexitarian succulents, thundercats etsy photo booth.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Industry",
-    "category": "desks",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Sofa1",
+    "name": "Tetris",
     "category": "sofas",
     "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
     "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Sofa2",
-    "category": "sofas",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
+      "/img/products/tetris/master-all.jpg",
+      "/img/products/tetris/master-combo-1.jpg",
+      "/img/products/tetris/master-combo-2.jpg",
+      "/img/products/tetris/master-combo-3.jpg"
     ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Sofa3",
-    "category": "sofas",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Alcove1",
-    "category": "alcove",
-    "description": "Mustache celiac tousled, glossier street art live-edge austin listicle pop-up lumbersexual. Sartorial VHS williamsburg, mixtape small batch vexillologist cred forage pop-up brunch locavore chartreuse celiac. Kitsch raclette tumeric flexitarian succulents, thundercats etsy photo booth.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Alcove2",
-    "category": "alcove",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Partitions1",
-    "category": "partitions",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Partitions2",
-    "category": "partitions",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Storage1",
-    "category": "storage",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Lighting1",
-    "category": "lighting",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
-    ]
-  },
-  {
-    "name": "Lighting2",
-    "category": "lighting",
-    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
-    "availableColors": [
-      "red",
-      "green",
-      "blue"
-    ],
-    "availableSizes": [
-      "42 x 18",
-      "40 x 18",
-      "38 x 16"
-    ],
-    "price": 1200,
-    "images": [
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png",
-      "/img/products/elements.png"
+    "variants": [
+      {
+        "module": "I",
+        "size": "42 x 18",
+        "color": "red",
+        "price": 1200,
+        "images": [
+          "/img/products/tetris/modules/I/42x18-green-1.jpg",
+          "/img/products/tetris/modules/I/42x18-green-2.jpg",
+          "/img/products/tetris/modules/I/42x18-green-3.jpg",
+          "/img/products/tetris/modules/I/42x18-green-4.jpg"
+        ]
+      },
+      {
+        "module": "I",
+        "size": "40 x 18",
+        "color": "red",
+        "price": 1300,
+        "images": [
+          "/img/products/tetris/modules/I/40x18-green-1.jpg",
+          "/img/products/tetris/modules/I/40x18-green-2.jpg",
+          "/img/products/tetris/modules/I/40x18-green-3.jpg",
+          "/img/products/tetris/modules/I/40x18-green-4.jpg"
+        ]
+      },
+      {
+        "module": "J",
+        "size": "40 x 18",
+        "color": "green",
+        "price": 1100,
+        "images": [
+          "/img/products/tetris/modules/J/40x18-green-1.jpg",
+          "/img/products/tetris/modules/J/40x18-green-2.jpg",
+          "/img/products/tetris/modules/J/40x18-green-3.jpg",
+          "/img/products/tetris/modules/J/40x18-green-4.jpg"
+        ]
+      },
+      {
+        "module": "J",
+        "size": "40 x 18",
+        "color": "red",
+        "price": 1400,
+        "images": [
+          "/img/products/tetris/modules/J/40x18-red-1.jpg",
+          "/img/products/tetris/modules/J/40x18-red-2.jpg",
+          "/img/products/tetris/modules/J/40x18-red-3.jpg",
+          "/img/products/tetris/modules/J/40x18-red-4.jpg"
+        ]
+      },
+      {
+        "module": "J",
+        "size": "42 x 18",
+        "color": "green",
+        "price": 1400,
+        "images": [
+          "/img/products/tetris/modules/J/42x18-green-1.jpg",
+          "/img/products/tetris/modules/J/42x18-green-2.jpg",
+          "/img/products/tetris/modules/J/42x18-green-3.jpg",
+          "/img/products/tetris/modules/J/42x18-green-4.jpg"
+        ]
+      },
+      {
+        "module": "S",
+        "size": "40 x 18",
+        "color": "pink",
+        "price": 1100,
+        "images": [
+          "/img/products/tetris/modules/S/40x18-pink-1.jpg",
+          "/img/products/tetris/modules/S/40x18-pink-2.jpg",
+          "/img/products/tetris/modules/S/40x18-pink-3.jpg",
+          "/img/products/tetris/modules/S/40x18-pink-4.jpg"
+        ]
+      },
+      {
+        "module": "S",
+        "size": "40 x 18",
+        "color": "green",
+        "price": 1100,
+        "images": [
+          "/img/products/tetris/modules/S/40x18-green-1.jpg",
+          "/img/products/tetris/modules/S/40x18-green-2.jpg",
+          "/img/products/tetris/modules/S/40x18-green-3.jpg",
+          "/img/products/tetris/modules/S/40x18-green-4.jpg"
+        ]
+      },
+      {
+        "module": "S",
+        "size": "42 x 18",
+        "color": "green",
+        "price": 1100,
+        "images": [
+          "/img/products/tetris/modules/S/42x18-green-1.jpg",
+          "/img/products/tetris/modules/S/42x18-green-2.jpg",
+          "/img/products/tetris/modules/S/42x18-green-3.jpg",
+          "/img/products/tetris/modules/S/42x18-green-4.jpg"
+        ]
+      },
+      {
+        "module": "S",
+        "size": "42 x 18",
+        "color": "red",
+        "price": 1400,
+        "images": [
+          "/img/products/tetris/modules/S/42x18-red-1.jpg",
+          "/img/products/tetris/modules/S/42x18-red-2.jpg",
+          "/img/products/tetris/modules/S/42x18-red-3.jpg",
+          "/img/products/tetris/modules/S/42x18-red-4.jpg"
+        ]
+      },
+      {
+        "module": "S",
+        "size": "42 x 18",
+        "color": "orange",
+        "price": 1400,
+        "images": [
+          "/img/products/tetris/modules/S/42x18-orange-1.jpg",
+          "/img/products/tetris/modules/S/42x18-orange-2.jpg",
+          "/img/products/tetris/modules/S/42x18-orange-3.jpg",
+          "/img/products/tetris/modules/S/42x18-orange-4.jpg"
+        ]
+      }
     ]
   }
 ]
