@@ -4,10 +4,10 @@
     "category": "sofas",
     "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
     "images": [
-      "/img/products/tetris/master-all.jpg",
-      "/img/products/tetris/master-combo-1.jpg",
-      "/img/products/tetris/master-combo-2.jpg",
-      "/img/products/tetris/master-combo-3.jpg"
+      "/img/products/sofas/tetris/master-all.jpg",
+      "/img/products/sofas/tetris/master-combo-1.jpg",
+      "/img/products/sofas/tetris/master-combo-2.jpg",
+      "/img/products/sofas/tetris/master-combo-3.jpg"
     ],
     "variants": [
       {
@@ -16,10 +16,10 @@
         "color": "red",
         "price": 1200,
         "images": [
-          "/img/products/tetris/modules/I/42x18-green-1.jpg",
-          "/img/products/tetris/modules/I/42x18-green-2.jpg",
-          "/img/products/tetris/modules/I/42x18-green-3.jpg",
-          "/img/products/tetris/modules/I/42x18-green-4.jpg"
+          "/img/products/sofas/tetris/modules/I/42x18-green-1.jpg",
+          "/img/products/sofas/tetris/modules/I/42x18-green-2.jpg",
+          "/img/products/sofas/tetris/modules/I/42x18-green-3.jpg",
+          "/img/products/sofas/tetris/modules/I/42x18-green-4.jpg"
         ]
       },
       {
@@ -28,10 +28,10 @@
         "color": "red",
         "price": 1300,
         "images": [
-          "/img/products/tetris/modules/I/40x18-green-1.jpg",
-          "/img/products/tetris/modules/I/40x18-green-2.jpg",
-          "/img/products/tetris/modules/I/40x18-green-3.jpg",
-          "/img/products/tetris/modules/I/40x18-green-4.jpg"
+          "/img/products/sofas/tetris/modules/I/40x18-green-1.jpg",
+          "/img/products/sofas/tetris/modules/I/40x18-green-2.jpg",
+          "/img/products/sofas/tetris/modules/I/40x18-green-3.jpg",
+          "/img/products/sofas/tetris/modules/I/40x18-green-4.jpg"
         ]
       },
       {
@@ -40,10 +40,10 @@
         "color": "green",
         "price": 1100,
         "images": [
-          "/img/products/tetris/modules/J/40x18-green-1.jpg",
-          "/img/products/tetris/modules/J/40x18-green-2.jpg",
-          "/img/products/tetris/modules/J/40x18-green-3.jpg",
-          "/img/products/tetris/modules/J/40x18-green-4.jpg"
+          "/img/products/sofas/tetris/modules/J/40x18-green-1.jpg",
+          "/img/products/sofas/tetris/modules/J/40x18-green-2.jpg",
+          "/img/products/sofas/tetris/modules/J/40x18-green-3.jpg",
+          "/img/products/sofas/tetris/modules/J/40x18-green-4.jpg"
         ]
       },
       {
@@ -52,10 +52,10 @@
         "color": "red",
         "price": 1400,
         "images": [
-          "/img/products/tetris/modules/J/40x18-red-1.jpg",
-          "/img/products/tetris/modules/J/40x18-red-2.jpg",
-          "/img/products/tetris/modules/J/40x18-red-3.jpg",
-          "/img/products/tetris/modules/J/40x18-red-4.jpg"
+          "/img/products/sofas/tetris/modules/J/40x18-red-1.jpg",
+          "/img/products/sofas/tetris/modules/J/40x18-red-2.jpg",
+          "/img/products/sofas/tetris/modules/J/40x18-red-3.jpg",
+          "/img/products/sofas/tetris/modules/J/40x18-red-4.jpg"
         ]
       },
       {
@@ -64,10 +64,10 @@
         "color": "green",
         "price": 1400,
         "images": [
-          "/img/products/tetris/modules/J/42x18-green-1.jpg",
-          "/img/products/tetris/modules/J/42x18-green-2.jpg",
-          "/img/products/tetris/modules/J/42x18-green-3.jpg",
-          "/img/products/tetris/modules/J/42x18-green-4.jpg"
+          "/img/products/sofas/tetris/modules/J/42x18-green-1.jpg",
+          "/img/products/sofas/tetris/modules/J/42x18-green-2.jpg",
+          "/img/products/sofas/tetris/modules/J/42x18-green-3.jpg",
+          "/img/products/sofas/tetris/modules/J/42x18-green-4.jpg"
         ]
       },
       {
@@ -76,10 +76,10 @@
         "color": "pink",
         "price": 1100,
         "images": [
-          "/img/products/tetris/modules/S/40x18-pink-1.jpg",
-          "/img/products/tetris/modules/S/40x18-pink-2.jpg",
-          "/img/products/tetris/modules/S/40x18-pink-3.jpg",
-          "/img/products/tetris/modules/S/40x18-pink-4.jpg"
+          "/img/products/sofas/tetris/modules/S/40x18-pink-1.jpg",
+          "/img/products/sofas/tetris/modules/S/40x18-pink-2.jpg",
+          "/img/products/sofas/tetris/modules/S/40x18-pink-3.jpg",
+          "/img/products/sofas/tetris/modules/S/40x18-pink-4.jpg"
         ]
       },
       {
@@ -88,10 +88,10 @@
         "color": "green",
         "price": 1100,
         "images": [
-          "/img/products/tetris/modules/S/40x18-green-1.jpg",
-          "/img/products/tetris/modules/S/40x18-green-2.jpg",
-          "/img/products/tetris/modules/S/40x18-green-3.jpg",
-          "/img/products/tetris/modules/S/40x18-green-4.jpg"
+          "/img/products/sofas/tetris/modules/S/40x18-green-1.jpg",
+          "/img/products/sofas/tetris/modules/S/40x18-green-2.jpg",
+          "/img/products/sofas/tetris/modules/S/40x18-green-3.jpg",
+          "/img/products/sofas/tetris/modules/S/40x18-green-4.jpg"
         ]
       },
       {
@@ -100,10 +100,10 @@
         "color": "green",
         "price": 1100,
         "images": [
-          "/img/products/tetris/modules/S/42x18-green-1.jpg",
-          "/img/products/tetris/modules/S/42x18-green-2.jpg",
-          "/img/products/tetris/modules/S/42x18-green-3.jpg",
-          "/img/products/tetris/modules/S/42x18-green-4.jpg"
+          "/img/products/sofas/tetris/modules/S/42x18-green-1.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-green-2.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-green-3.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-green-4.jpg"
         ]
       },
       {
@@ -112,10 +112,10 @@
         "color": "red",
         "price": 1400,
         "images": [
-          "/img/products/tetris/modules/S/42x18-red-1.jpg",
-          "/img/products/tetris/modules/S/42x18-red-2.jpg",
-          "/img/products/tetris/modules/S/42x18-red-3.jpg",
-          "/img/products/tetris/modules/S/42x18-red-4.jpg"
+          "/img/products/sofas/tetris/modules/S/42x18-red-1.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-red-2.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-red-3.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-red-4.jpg"
         ]
       },
       {
@@ -124,11 +124,107 @@
         "color": "orange",
         "price": 1400,
         "images": [
-          "/img/products/tetris/modules/S/42x18-orange-1.jpg",
-          "/img/products/tetris/modules/S/42x18-orange-2.jpg",
-          "/img/products/tetris/modules/S/42x18-orange-3.jpg",
-          "/img/products/tetris/modules/S/42x18-orange-4.jpg"
+          "/img/products/sofas/tetris/modules/S/42x18-orange-1.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-orange-2.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-orange-3.jpg",
+          "/img/products/sofas/tetris/modules/S/42x18-orange-4.jpg"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Elements",
+    "category": "desks",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "images": ["/img/products/desks/elements/elements.png"],
+    "variants": [       
+      {
+        "size": "42 x 18",
+        "color": "orange",
+        "finish": "brown",
+        "price": 600,
+        "images": ["/img/products/desks/elements/elements.png"]
+      }
+    ]
+  },  
+  {
+    "name": "Aero",
+    "category": "desks",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "images": ["/img/products/desks/aero/aero.png"],
+    "variants": [       
+      {
+        "size": "42 x 18",
+        "color": "orange",
+        "finish": "brown",
+        "price": 800,
+        "images": ["/img/products/desks/aero/aero.png"]
+      }
+    ]
+  },
+  {
+    "name": "Hexa",
+    "category": "desks",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "images": ["/img/products/desks/hexa/hexa.png"],
+    "variants": [       
+      {
+        "size": "42 x 18",
+        "color": "orange",
+        "finish": "brown",
+        "price": 2900,
+        "images": ["/img/products/desks/hexa/hexa.png"]
+      },      
+      {
+        "size": "38 x 16",
+        "color": "blue",
+        "finish": "pink",
+        "price": 2300,
+        "images": ["/img/products/desks/hexa/hexa.png"]
+      },      
+      {
+        "size": "42 x 18",
+        "color": "grey",
+        "finish": "yellow",
+        "price": 3300,
+        "images": ["/img/products/desks/hexa/hexa.png"]
+      }
+    ]
+  },
+  {
+    "name": "Industry",
+    "category": "desks",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "images": ["/img/products/desks/industry/industry.png"],
+    "variants": [       
+      {
+        "size": "42 x 18",
+        "color": "orange",
+        "finish": "brown",
+        "price": 300,
+        "images": ["/img/products/desks/industry/industry.png"]
+      },      
+      {
+        "size": "52 x 35",
+        "color": "orange",
+        "finish": "brown",
+        "price": 650,
+        "images": ["/img/products/desks/industry/industry.png"]
+      }
+    ]
+  },
+  {
+    "name": "Wrkr",
+    "category": "desks",
+    "description": "Normcore photo booth prism humblebrag pinterest health goth shabby chic small batch. 90's fingerstache vape everyday carry lyft.",
+    "images": ["/img/products/desks/wrkr/wrkr.png"],
+    "variants": [       
+      {
+        "size": "42 x 18",
+        "color": "orange",
+        "finish": "brown",
+        "price": 700,
+        "images": ["/img/products/desks/wrkr/wrkr.png"]
       }
     ]
   }
