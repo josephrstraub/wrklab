@@ -3,6 +3,8 @@ import { sendEmail } from './mail'
 const mongoLocal = 'mongodb://localhost:27017/wrklab'
 const app = express()
 
+var path = require('path')
+
 const bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
