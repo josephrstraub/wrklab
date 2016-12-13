@@ -70,7 +70,6 @@ app.get('/api/:dataType', (req, res) => {
   const filter = {}
   let dataType = req.params.dataType
   modelToUse[dataType].find(filter, (err, data) => {
-    console.log(data)
     if (err) {
       return console.error(err)
     }
@@ -78,8 +77,8 @@ app.get('/api/:dataType', (req, res) => {
   })
 })
 
-app.get('/*', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, './build', 'index.html'));
 });
 
 app.post('/send', (req, res) => {
