@@ -66,7 +66,6 @@ const modelToUse = {
   'visions': visionsModel
 }
 
-
 app.get('/api/:dataType', (req, res) => {
   const filter = {}
   let dataType = req.params.dataType
@@ -78,6 +77,10 @@ app.get('/api/:dataType', (req, res) => {
     return res.json(data)
   })
 })
+
+app.get('/*', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
 
 app.post('/send', (req, res) => {
   sendEmail(req.body)
