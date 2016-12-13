@@ -79,10 +79,6 @@ app.get('/api/:dataType', (req, res) => {
   })
 })
 
-app.get('/*', function(req, res) {
-  res.sendFile(path.resolve('index.html'));
-});
-
 app.post('/send', (req, res) => {
   sendEmail(req.body)
 })
