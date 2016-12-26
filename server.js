@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
   app.get('*/:page', (req, res) => {
     let routes = ['featured', 'vision', 'process']
-    if ( (routes.includes(page) && !page.includes('api/')) || !page ) {
+    if ( (routes.includes(page) && !page.includes('api')) || !page ) {
       res.sendFile(path.resolve('client/build', 'index.html'));
     }
   });
