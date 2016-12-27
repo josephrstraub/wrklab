@@ -86,10 +86,6 @@ const modelToUse = {
   'visions': visionsModel
 }
 
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
-
 app.get('/api/:dataType', (req, res) => {
   const filter = {}
   let dataType = req.params.dataType
