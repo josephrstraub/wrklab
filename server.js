@@ -20,16 +20,20 @@ app.set('port', (process.env.PORT || 3001))
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
   app.get('/featured', (req, res) => res.sendFile(path.resolve('client/build', 'index.html')));
+  app.get('/process', (req, res) => res.sendFile(path.resolve('client/build', 'index.html')));
+  app.get('/vision', (req, res) => res.sendFile(path.resolve('client/build', 'index.html')));
+  app.get('/products', (req, res) => res.sendFile(path.resolve('client/build', 'index.html')));
+  app.get('/products/*', (req, res) => res.sendFile(path.resolve('client/build', 'index.html')));
   app.get('/api/:dataType', (req, res) => {
-  const filter = {}
-  let dataType = req.params.dataType
-  modelToUse[dataType].find(filter, (err, data) => {
-    if (err) {
-      return console.error(err)
-    }
-    return res.json(data)
+    const filter = {}
+    let dataType = req.params.dataType
+    modelToUse[dataType].find(filter, (err, data) => {
+      if (err) {
+        return console.error(err)
+      }
+      return res.json(data)
+    })
   })
-})
   app.use(function(req, res) {
     res.status(404).send('Sorry cant find that!');
   });
@@ -81,6 +85,10 @@ const modelToUse = {
   'products': productsModel,
   'visions': visionsModel
 }
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});
 
 app.get('/api/:dataType', (req, res) => {
   const filter = {}
