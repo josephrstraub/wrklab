@@ -34,6 +34,9 @@ if (process.env.NODE_ENV === 'production') {
       return res.json(data)
     })
   })
+  app.post('/send', (req, res) => {
+    sendEmail(req.body).then((data) => res.send(data))
+  })
   app.use(function(req, res) {
     res.status(404).send('Sorry cant find that!');
   });
