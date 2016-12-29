@@ -13,18 +13,19 @@ var nodemailerMailgun = nodemailer.createTransport(mg(auth));
 
 
 export const sendEmail = (formData) => {
-  nodemailerMailgun.sendMail({
+  return nodemailerMailgun.sendMail({
     from: 'Wrklab <mailgun@sandboxbad6ebf7a0ac47d99b5bb2af1fe5f37c.mailgun.org>',
     to: formData.email.value, // An array if you have multiple recipients. 
     subject: 'Thanks for reaching out!',
     //You can use "text:" to send plain-text content. It's oldschool! 
     html: `<p>Hello ${formData.name.value}, Thank you for your interest in our services. We have received your information and will reach out to you shortly.</p>`
-  }, function (err, info) {
-      if (err) {
-        console.log('Error: ' + err);
-      }
-      else {
-        console.log('Response: ' + info);
-      }
-  });
+  })
+    .then(res => {
+      console.log(res)
+      return res
+    })
+    .catch(err => {
+      console.log(err)
+      return err
+    })
 } 

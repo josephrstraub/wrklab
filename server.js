@@ -98,7 +98,7 @@ app.get('/api/:dataType', (req, res) => {
 })
 
 app.post('/send', (req, res) => {
-  sendEmail(req.body)
+  sendEmail(req.body).then((data) => res.send(data))
 })
 
 app.listen(app.get('port'), () => {
